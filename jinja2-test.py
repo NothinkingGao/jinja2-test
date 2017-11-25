@@ -6,8 +6,6 @@ import os,sys
 reload(sys)
 sys.setdefaultencoding( "utf-8" )
 
-conn=pymysql.connect(host='servicedb.alphainsight.ai',port=3306,user='program',passwd='6sn+v4dp',db='EastRisk',charset='utf8')
-
 PATH = os.path.dirname(os.path.abspath(__file__))
 
 #设置jinja2的环境(trim_blocks=True,lstrip_blocks = True,去掉jinja2产生的空行)
